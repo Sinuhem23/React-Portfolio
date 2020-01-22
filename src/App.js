@@ -92,7 +92,7 @@ function App() {
         <div className='row secondCol'>
           {/* First Col */}
 
-          <div className='col-lg-4 toggle'>
+          <div className='col-lg-4 '>
             <div className='portfolioSection '>
               <h2 className='col1Text'>Portfolio</h2>
               <p className='col1secondText'>Feel free to look around</p>
