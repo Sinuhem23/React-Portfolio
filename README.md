@@ -1,4 +1,4 @@
-#Check Out my Portfolio:
+Check out my Portfolio:
 
 https://sinuhe-portfolio.herokuapp.com/
 
