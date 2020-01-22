@@ -124,20 +124,23 @@ function App() {
                 </div>
               </div>
               <div className='col-md-4 btn'>
-                <div className='card-img-top gifTastic' alt='GifTastic'></div>
+                <div
+                  className='card-img-top muscleCar'
+                  alt='Muscle-Car-Game'
+                ></div>
                 <div className='card-body'>
                   <a
                     target='_blank'
-                    href='https://sinuhem23.github.io/GifTastic/'
+                    href='https://shielded-spire-69074.herokuapp.com/'
                   >
-                    <p className='card-text btn'>GifTastic</p>
+                    <p className='card-text btn'>Muscle-Car-Game</p>
                   </a>
                 </div>
               </div>
               <div className='col-md-4 btn'>
                 <div
                   className='card-img-top nodeGuessingGame'
-                  alt='Make Up Remover'
+                  alt='Node-Guessing-Game'
                 ></div>
                 <div className='card-body'>
                   <a

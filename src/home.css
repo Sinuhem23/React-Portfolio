@@ -257,8 +257,8 @@ nav ul li a:hover::after {
   height: 200px;
   border-radius: 10%;
 }
-.gifTastic {
-  background-image: url('./Img/GifTastic.png');
+.muscleCar {
+  background-image: url('./Img/Muscle-Car-Game.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
