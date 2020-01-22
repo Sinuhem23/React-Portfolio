@@ -74,7 +74,7 @@ function App() {
               <div className='col-md-4'></div>
               <div className='col-md-4'></div>
               <a className='col-md-4 btn btnContinue' href='#quote'>
-                Continue
+                See More
               </a>
             </div>
           </div>
@@ -194,7 +194,31 @@ function App() {
           </div>
         </div>
         {/* </div> */}
-        <p className='backgroundImg2'></p>
+        {/* <p className='backgroundImg2'></p> */}
+        <footer>
+          <div className='container '>
+            <div className='row '>
+              <div className=' col-md-4'>
+                <a href='/' className='upButton'>
+                  Reset
+                </a>
+              </div>
+              <div className='col-md-4 viewProfileBtn '>
+                View my Profile:
+                <div className='btn linkedinBTN'>
+                  <a href='https://www.linkedin.com/in/sinuhe-montero-thinkfirst/'>
+                    <i className='fab  fa-linkedin linkedin'></i>
+                  </a>
+                </div>
+              </div>
+              <div className=' col-md-4'>
+                <a href='/' className='upButton'>
+                  Reset
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </Router>
   );
