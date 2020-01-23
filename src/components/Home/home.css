@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+}
+
+.btn:hover {
+  color: rgb(110, 148, 89);
+}
+
+.arrowDown {
+  text-align: center;
+}
+.downButton {
+  color: grey;
+  font-weight: bold;
+  opacity: 0.6;
+  font-size: 20px;
+}
+.downButton:hover {
+  color: rgb(110, 148, 89);
+}
+
+.upButton {
+  color: grey;
+  font-weight: bold;
+  opacity: 0.6;
+}
+.upButton:hover {
+  color: rgb(110, 148, 89);
+}

@@ -1,0 +1,99 @@
+.portfolioBTN {
+  font-weight: bold;
+}
+#portfolio {
+  margin-top: 25%;
+}
+.portfolioSection {
+  padding-left: 10%;
+  margin-top: 50px;
+}
+.triviaGame {
+  background-image: url('./Img/TriviaGame.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 10%;
+}
+.muscleCar {
+  background-image: url('./Img/Muscle-Car-Game.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 10%;
+}
+.nodeGuessingGame {
+  background-image: url('./Img/Node-Guess.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 10%;
+}
+.nagleParking {
+  background-image: url('./Img/NagleParking.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 10%;
+}
+.launchPad {
+  background-image: url('./Img/Team-Project.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 10%;
+}
+.sipNLearn {
+  background-image: url('./Img/Sip-N-Learn.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 10%;
+}
+.btnToView {
+  width: 250px;
+  background-color: rgb(211, 211, 211);
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.btnToView:hover {
+  background-color: rgb(246, 245, 245);
+}
+.card {
+  width: 100%;
+}
+.firstTextRow {
+  margin-top: 30px;
+}
+.secondTextRow {
+  margin-top: 40px;
+}
+
+.secondCol {
+  border-top: 3px solid rgb(241, 241, 241);
+  border-bottom: 3px solid rgb(241, 241, 241);
+  padding-top: 80px;
+  padding-bottom: 100px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.innerText2 {
+  margin-top: 20px;
+  color: rgb(224, 224, 224);
+}

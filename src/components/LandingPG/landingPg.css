@@ -1,0 +1,60 @@
+.backgroundImg {
+  background-image: url('./Image/React-Coding.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 100%;
+  height: 815px;
+}
+.nameText {
+  font-weight: bold;
+  color: rgb(110, 148, 89);
+  font-size: 30px;
+}
+.backgroundText {
+  font-weight: bold;
+  padding-top: 206px;
+  margin: 0 auto;
+}
+.btnContinue {
+  width: 250px;
+  background-color: rgb(110, 148, 89);
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.btnContinue:hover {
+  background-color: rgb(243, 243, 243);
+}
+.innerText1 {
+  color: rgb(168, 168, 168);
+}
+.card-text {
+  text-align: center;
+  font-weight: bold;
+
+  color: rgb(165, 165, 165);
+}
+.innerFont1 {
+  font-size: 47px;
+  font-weight: bold;
+  padding: 5px;
+}
+.innerFont2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.col1Text {
+  margin-top: 50%;
+  text-align: left;
+  color: rgb(126, 144, 25);
+}
+.col1secondText {
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+  color: grey;
+}

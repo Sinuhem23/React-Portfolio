@@ -1,0 +1,30 @@
+footer {
+  margin-top: 39px;
+  margin-bottom: 39px;
+  text-align: center;
+}
+.viewProfileBtn {
+  color: grey;
+  font-weight: bold;
+}
+.linkedin {
+  width: 10%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(49, 111, 192);
+  font-size: 50px;
+}
+.linkeninBTN {
+  font-weight: bold;
+}
+.footerArrow {
+  color: grey;
+  font-weight: bold;
+  opacity: 0.6;
+  margin: 0 auto;
+  font-size: 30px;
+}
+.footerArrow:hover {
+  color: rgb(110, 148, 89);
+}

@@ -1,0 +1,28 @@
+.expressionText {
+  font-size: 29px;
+  color: rgb(195, 195, 195);
+  text-align: center;
+  font-weight: bold;
+  margin: 233px auto;
+  margin-bottom: 233px;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.lowerQuote {
+  margin-top: 300px;
+}
+.continueBTN {
+  width: 110px;
+
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  color: rgb(110, 148, 89);
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.continueBTN:hover {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+}
