@@ -89,6 +89,11 @@ function App() {
           </a>{' '}
           to engage in some of my work.
         </p>
+        <div className='arrowDown'>
+          <a href='#portfolio' className='downButton '>
+            <i className='fas fa-sort-down'></i>
+          </a>
+        </div>
         <div id='portfolio'></div>
         <div className='row secondCol'>
           {/* First Col */}
@@ -133,7 +138,7 @@ function App() {
                     target='_blank'
                     href='https://shielded-spire-69074.herokuapp.com/'
                   >
-                    <p className='card-text btn'>Muscle-Car-Game</p>
+                    <p className='card-text  btn'>Muscle-Car-Game</p>
                   </a>
                 </div>
               </div>
@@ -200,9 +205,10 @@ function App() {
             <div className='row '>
               <div className=' col-md-4'>
                 <a href='/' className='upButton'>
-                  Reset
+                  <i className='fas fa-sort-up'></i>
                 </a>
               </div>
+
               <div className='col-md-4 viewProfileBtn '>
                 View my Profile:
                 <div className='btn linkedinBTN'>
@@ -211,11 +217,7 @@ function App() {
                   </a>
                 </div>
               </div>
-              <div className=' col-md-4'>
-                <a href='/' className='upButton'>
-                  Reset
-                </a>
-              </div>
+              <div className='col-md-4'></div>
             </div>
           </div>
         </footer>
