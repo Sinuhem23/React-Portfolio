@@ -140,7 +140,7 @@ nav ul li a:hover::after {
 .btnContinue:hover {
   background-color: rgb(243, 243, 243);
 }
-.btnGitHub {
+.btnToView {
   width: 250px;
   background-color: rgb(211, 211, 211);
   text-align: center;
@@ -149,7 +149,7 @@ nav ul li a:hover::after {
   border-radius: 15px;
   font-weight: bold;
 }
-.btnGitHub:hover {
+.btnToView:hover {
   background-color: rgb(246, 245, 245);
 }
 .innerText1 {
@@ -182,9 +182,6 @@ nav ul li a:hover::after {
   color: grey;
 }
 
-.cardControl {
-  padding: 15px;
-}
 .btn:hover {
   color: rgb(110, 148, 89);
 }
@@ -240,7 +237,7 @@ nav ul li a:hover::after {
   margin-top: 50px;
 }
 .continueBTN {
-  width: 100px;
+  width: 110px;
 
   background-color: rgb(243, 243, 243);
   text-align: center;
@@ -346,5 +343,15 @@ footer {
   font-size: 20px;
 }
 .downButton:hover {
+  color: rgb(110, 148, 89);
+}
+.footerArrow {
+  color: grey;
+  font-weight: bold;
+  opacity: 0.6;
+  margin: 0 auto;
+  font-size: 30px;
+}
+.footerArrow:hover {
   color: rgb(110, 148, 89);
 }

@@ -82,7 +82,7 @@ function App() {
         <div id='quote'></div>
         <p class='expressionText'>
           One of the most important aspects for me as a Software Engineer is the
-          freedom in expression via technology.
+          freedom in expression via technology.{' '}
           <a href='#portfolio' class=' btn continueBTN'>
             {' '}
             Continue
@@ -98,18 +98,33 @@ function App() {
         <div className='row secondCol'>
           {/* First Col */}
 
-          <div className='col-lg-4 '>
+          <div className='col-lg-4 text-center'>
             <div className='portfolioSection '>
               <h2 className='col1Text'>Portfolio</h2>
               <p className='col1secondText'>Feel free to look around</p>
-
-              <a
-                target='_blank'
-                href='https://github.com/Sinuhem23/'
-                className=' btn btnGitHub'
-              >
-                View My GitHub
-              </a>
+              <div className='row'>
+                <a
+                  target='_blank'
+                  href='https://github.com/Sinuhem23/'
+                  className=' btn btnToView'
+                >
+                  View My GitHub
+                </a>
+              </div>
+              <div className='row'>
+                <a
+                  target='_blank'
+                  href='https://drive.google.com/file/d/1Iccbu3ZPGtdOAee5X_l0Kn0YE5W7-Uka/view?usp=sharing'
+                  className=' btn btnToView'
+                >
+                  View My Resume
+                </a>
+              </div>
+              <div className='row '>
+                <a href='#footer' className=' footerArrow'>
+                  <i className='fas fa-sort-down'></i>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -117,7 +132,7 @@ function App() {
           <div className='col-lg-8 '>
             {/* Row 1 */}
             <div className='row firstTextRow'>
-              <div className='col-md-4 cardControl btn'>
+              <div className='col-md-4 btn'>
                 <div className='card-img-top triviaGame' alt='Trivia'></div>
                 <div className='card-body'>
                   <a
@@ -209,7 +224,7 @@ function App() {
                 </a>
               </div>
 
-              <div className='col-md-4 viewProfileBtn '>
+              <div id='footer' className='footer col-md-4 viewProfileBtn '>
                 View my Profile:
                 <div className='btn linkedinBTN'>
                   <a href='https://www.linkedin.com/in/sinuhe-montero-thinkfirst/'>
