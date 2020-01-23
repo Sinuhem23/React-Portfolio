@@ -49,7 +49,7 @@ export default function PortfolioSec() {
                   target='_blank'
                   href='https://sinuhem23.github.io/TriviaGame/'
                 >
-                  <p className='card-text btn'>Trivia</p>
+                  <p className='card-text btn appButtons'>Trivia</p>
                 </a>
               </div>
             </div>
@@ -63,7 +63,7 @@ export default function PortfolioSec() {
                   target='_blank'
                   href='https://shielded-spire-69074.herokuapp.com/'
                 >
-                  <p className='card-text  btn'>Muscle-Car-Game</p>
+                  <p className='card-text  btn appButtons'>Muscle-Car-Game</p>
                 </a>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function PortfolioSec() {
                   target='_blank'
                   href='https://github.com/Sinuhem23/Node-Guessing-Game'
                 >
-                  <p className='card-text btn'>Node-Guessing</p>
+                  <p className='card-text btn appButtons'>Node-Guessing</p>
                 </a>
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function PortfolioSec() {
               ></div>
               <div className='card-body'>
                 <a target='_blank' href='https://nagle-parking.herokuapp.com/'>
-                  <p className='card-text btn'>Nagle-Parking</p>
+                  <p className='card-text btn appButtons'>Nagle-Parking</p>
                 </a>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function PortfolioSec() {
                   target='_blank'
                   href='https://tomrennhack.github.io/Project-1-LaunchPad/index.html'
                 >
-                  <p className='card-text btn'>Launch-Pad</p>
+                  <p className='card-text btn appButtons'>Launch-Pad</p>
                 </a>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function PortfolioSec() {
                   target='_blank'
                   href='https://obscure-ravine-26191.herokuapp.com/'
                 >
-                  <p className='card-text btn'>Sip-N-Learn</p>
+                  <p className='card-text btn appButtons'>Sip-N-Learn</p>
                 </a>
               </div>
             </div>

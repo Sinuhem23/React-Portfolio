@@ -8,6 +8,9 @@
   padding-left: 10%;
   margin-top: 50px;
 }
+.appButtons:hover {
+  font-size: 20px;
+}
 .triviaGame {
   background-image: url('./Img/TriviaGame.png');
   background-size: cover;
