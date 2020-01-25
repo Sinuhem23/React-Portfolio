@@ -3,9 +3,9 @@
   color: rgb(195, 195, 195);
   text-align: center;
   font-weight: bold;
-  margin: 65px auto;
+  margin: 252px auto;
   margin-bottom: 233px;
-  padding-left: 10px;
+  padding-left: 30px;
   padding-right: 30px;
 }
 .lowerQuote {
@@ -25,4 +25,49 @@
 .continueBTN:hover {
   background-color: rgb(255, 255, 255);
   font-size: 20px;
+}
+.arrowDown {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .expressionText {
+    margin: 14em auto 0;
+    width: 43%;
+  }
+  .arrowDown {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .expressionText {
+    margin: 14em auto 0;
+    width: 51%;
+  }
+  .arrowDown {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .expressionText {
+    margin: 2em auto 0;
+    width: 68%;
+  }
+  .arrowDown {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .expressionText {
+    margin: 2em auto 0;
+    width: 96%;
+  }
+  .arrowDown {
+    text-align: center;
+    margin-top: 30px;
+  }
 }
