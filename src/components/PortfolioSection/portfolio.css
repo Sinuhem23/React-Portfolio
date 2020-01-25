@@ -10,6 +10,7 @@
 .appButtons:hover {
   font-size: 20px;
 }
+
 .triviaGame {
   background-image: url('./Img/TriviaGame.png');
   background-size: cover;
@@ -98,4 +99,68 @@
 .innerText2 {
   margin-top: 20px;
   color: rgb(224, 224, 224);
+}
+
+.footerArrow {
+  color: grey;
+  font-weight: bold;
+  opacity: 0.6;
+  margin: 10% auto;
+  font-size: 30px;
+}
+.footerArrow:hover {
+  color: rgb(110, 148, 89);
+}
+
+@media only screen and (max-width: 640px) {
+  .secondCol {
+    margin: 14em auto 0;
+    width: 51%;
+  }
+  .portfolioSection {
+    margin: 0 21%;
+  }
+  .footerArrow {
+    color: grey;
+    font-weight: bold;
+    opacity: 0.6;
+    margin: 10% auto;
+    font-size: 30px;
+    padding-right: 15%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .secondCol {
+    margin: 2em auto 0;
+    width: 100%;
+  }
+  .portfolioSection {
+    margin: 0 auto 21%;
+    padding-left: 15%;
+  }
+  .footerArrow {
+    color: grey;
+    font-weight: bold;
+    opacity: 0.6;
+    margin: 10% auto;
+    font-size: 30px;
+    padding-right: 15%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .secondCol {
+    margin: 2em auto 0;
+    width: 96%;
+  }
+  .portfolioSection {
+    margin: 0 21%;
+  }
+  .footerArrow {
+    color: grey;
+    font-weight: bold;
+    opacity: 0.6;
+    margin: 10% auto;
+    font-size: 30px;
+    padding-right: 15%;
+  }
 }

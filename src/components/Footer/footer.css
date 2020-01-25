@@ -18,13 +18,3 @@ footer {
 .linkeninBTN {
   font-weight: bold;
 }
-.footerArrow {
-  color: grey;
-  font-weight: bold;
-  opacity: 0.6;
-  margin: 0 auto;
-  font-size: 30px;
-}
-.footerArrow:hover {
-  color: rgb(110, 148, 89);
-}
