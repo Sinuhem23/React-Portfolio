@@ -149,6 +149,7 @@
     margin: 0 21%;
   }
   .col1Text {
+    margin-top: 0;
     text-align: left;
     color: rgb(126, 144, 25);
   }
@@ -174,6 +175,8 @@
     padding-left: 15%;
   }
   .col1Text {
+    margin-top: 0;
+
     text-align: left;
     color: rgb(126, 144, 25);
   }
@@ -193,6 +196,8 @@
     width: 96%;
   }
   .col1Text {
+    margin-top: 0;
+
     text-align: left;
     color: rgb(126, 144, 25);
   }
