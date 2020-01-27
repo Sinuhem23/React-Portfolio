@@ -109,6 +109,17 @@
   font-size: 30px;
   padding-right: 15%;
 }
+.col1Text {
+  margin-top: 30%;
+  text-align: left;
+  color: rgb(126, 144, 25);
+}
+.col1secondText {
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+  color: grey;
+}
 @media only screen and (max-width: 991px) {
   .secondCol {
     margin: 14em auto 0;
@@ -137,6 +148,10 @@
   .portfolioSection {
     margin: 0 21%;
   }
+  .col1Text {
+    text-align: left;
+    color: rgb(126, 144, 25);
+  }
   .footerArrow {
     display: none;
 
@@ -148,6 +163,7 @@
     padding-right: 15%; */
   }
 }
+
 @media only screen and (max-width: 480px) {
   .secondCol {
     margin: 2em auto 0;
@@ -156,6 +172,10 @@
   .portfolioSection {
     margin: 0 auto 21%;
     padding-left: 15%;
+  }
+  .col1Text {
+    text-align: left;
+    color: rgb(126, 144, 25);
   }
   .footerArrow {
     display: none;
@@ -171,6 +191,10 @@
   .secondCol {
     margin: 2em auto 0;
     width: 96%;
+  }
+  .col1Text {
+    text-align: left;
+    color: rgb(126, 144, 25);
   }
   .portfolioSection {
     margin: 0 21%;
