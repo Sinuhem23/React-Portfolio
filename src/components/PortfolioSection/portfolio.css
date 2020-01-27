@@ -10,6 +10,11 @@
 .appButtons:hover {
   font-size: 20px;
 }
+.backgroundText {
+  font-weight: bold;
+  padding-top: 206px;
+  margin: 0 auto;
+}
 
 .triviaGame {
   background-image: url('./Img/TriviaGame.png');
@@ -120,6 +125,9 @@
   font-weight: bold;
   color: grey;
 }
+.innerText1 {
+  color: rgb(168, 168, 168);
+}
 @media only screen and (max-width: 991px) {
   .secondCol {
     margin: 14em auto 0;
@@ -127,6 +135,11 @@
   }
   .portfolioSection {
     margin: 0 21%;
+  }
+  .backgroundText {
+    font-weight: bold;
+    padding-top: 156px;
+    margin: 0 auto;
   }
   .footerArrow {
     display: none;
@@ -148,10 +161,18 @@
   .portfolioSection {
     margin: 0 21%;
   }
+  .backgroundText {
+    font-weight: bold;
+    padding-top: 156px;
+    margin: 0 auto;
+  }
   .col1Text {
     margin-top: 0;
     text-align: left;
     color: rgb(126, 144, 25);
+  }
+  .innerText1 {
+    color: gainsboro;
   }
   .footerArrow {
     display: none;
@@ -170,9 +191,17 @@
     margin: 2em auto 0;
     width: 100%;
   }
+  .backgroundText {
+    font-weight: bold;
+    padding-top: 156px;
+    margin: 0 auto;
+  }
   .portfolioSection {
     margin: 0 auto 21%;
     padding-left: 15%;
+  }
+  .innerText1 {
+    color: gainsboro;
   }
   .col1Text {
     margin-top: 0;
@@ -194,6 +223,14 @@
   .secondCol {
     margin: 2em auto 0;
     width: 96%;
+  }
+  .innerText1 {
+    color: gainsboro;
+  }
+  .backgroundText {
+    font-weight: bold;
+    padding-top: 156px;
+    margin: 0 auto;
   }
   .col1Text {
     margin-top: 0;

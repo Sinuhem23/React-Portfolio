@@ -12,11 +12,7 @@
   color: rgb(110, 148, 89);
   font-size: 30px;
 }
-.backgroundText {
-  font-weight: bold;
-  padding-top: 206px;
-  margin: 0 auto;
-}
+
 .btnContinue {
   width: 250px;
   background-color: rgb(110, 148, 89);
@@ -29,9 +25,7 @@
 .btnContinue:hover {
   background-color: rgb(243, 243, 243);
 }
-.innerText1 {
-  color: rgb(168, 168, 168);
-}
+
 .card-text {
   text-align: center;
   font-weight: bold;
