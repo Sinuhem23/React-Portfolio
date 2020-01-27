@@ -107,9 +107,26 @@
   opacity: 0.6;
   margin: 10% auto;
   font-size: 30px;
+  padding-right: 15%;
 }
-.footerArrow:hover {
-  color: rgb(110, 148, 89);
+@media only screen and (max-width: 991px) {
+  .secondCol {
+    margin: 14em auto 0;
+    width: 51%;
+  }
+  .portfolioSection {
+    margin: 0 21%;
+  }
+  .footerArrow {
+    display: none;
+
+    /* color: grey;
+    font-weight: bold;
+    opacity: 0.6;
+    margin: 10% auto;
+    font-size: 30px;
+    padding-right: 15%; */
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -121,12 +138,14 @@
     margin: 0 21%;
   }
   .footerArrow {
-    color: grey;
+    display: none;
+
+    /* color: grey;
     font-weight: bold;
     opacity: 0.6;
     margin: 10% auto;
     font-size: 30px;
-    padding-right: 15%;
+    padding-right: 15%; */
   }
 }
 @media only screen and (max-width: 480px) {
@@ -139,12 +158,13 @@
     padding-left: 15%;
   }
   .footerArrow {
-    color: grey;
+    display: none;
+    /* color: grey;
     font-weight: bold;
     opacity: 0.6;
     margin: 10% auto;
     font-size: 30px;
-    padding-right: 15%;
+    padding-right: 15%; */
   }
 }
 @media only screen and (max-width: 320px) {
@@ -156,11 +176,13 @@
     margin: 0 21%;
   }
   .footerArrow {
-    color: grey;
+    display: none;
+
+    /* color: grey;
     font-weight: bold;
     opacity: 0.6;
     margin: 10% auto;
     font-size: 30px;
-    padding-right: 15%;
+    padding-right: 15%; */
   }
 }
