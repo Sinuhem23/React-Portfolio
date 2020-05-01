@@ -80,7 +80,7 @@ nav ul li a:hover::after {
 }
 .navBtns {
   font-family: 'Fugaz One', cursive;
-  margin-left: 75%;
+  margin-left: 60%;
 }
 
 @keyframes slideIn {
