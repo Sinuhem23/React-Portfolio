@@ -43,7 +43,9 @@ export default function PortfolioSec() {
           {/* Row 1 */}
           <div className='row firstTextRow'>
             <div className='col-md-4 btn'>
-              <div className='card-img-top triviaGame' alt='Trivia'></div>
+              <a target='_blank' href='https://sinuhem23.github.io/TriviaGame/'>
+                <div className='card-img-top triviaGame' alt='Trivia'></div>
+              </a>
               <div className='card-body'>
                 <a
                   target='_blank'
@@ -54,10 +56,15 @@ export default function PortfolioSec() {
               </div>
             </div>
             <div className='col-md-4 btn'>
-              <div
-                className='card-img-top muscleCar'
-                alt='Muscle-Car-Game'
-              ></div>
+              <a
+                target='_blank'
+                href='https://shielded-spire-69074.herokuapp.com/'
+              >
+                <div
+                  className='card-img-top muscleCar'
+                  alt='Muscle-Car-Game'
+                ></div>
+              </a>
               <div className='card-body'>
                 <a
                   target='_blank'
@@ -68,10 +75,16 @@ export default function PortfolioSec() {
               </div>
             </div>
             <div className='col-md-4 btn'>
-              <div
-                className='card-img-top nodeGuessingGame'
-                alt='Node-Guessing-Game'
-              ></div>
+              <a
+                target='_blank'
+                href='https://github.com/Sinuhem23/Node-Guessing-Game'
+              >
+                <div
+                  className='card-img-top nodeGuessingGame'
+                  alt='Node-Guessing-Game'
+                ></div>
+              </a>
+
               <div className='card-body'>
                 <a
                   target='_blank'
@@ -85,10 +98,13 @@ export default function PortfolioSec() {
           {/* Row 2 */}
           <div className='row secondTextRow'>
             <div className='col-md-4 btn'>
-              <div
-                className='card-img-top nagleParking'
-                alt='Nagle-Parking'
-              ></div>
+              <a target='_blank' href='https://nagle-parking.herokuapp.com/'>
+                <div
+                  className='card-img-top nagleParking'
+                  alt='Nagle-Parking'
+                ></div>
+              </a>
+
               <div className='card-body'>
                 <a target='_blank' href='https://nagle-parking.herokuapp.com/'>
                   <p className='card-text btn appButtons'>Nagle-Parking</p>
@@ -96,7 +112,13 @@ export default function PortfolioSec() {
               </div>
             </div>
             <div className='col-md-4 btn'>
-              <div className='card-img-top launchPad' alt='Launch-Pad'></div>
+              <a
+                target='_blank'
+                href='https://tomrennhack.github.io/Project-1-LaunchPad/index.html'
+              >
+                <div className='card-img-top launchPad' alt='Launch-Pad'></div>
+              </a>
+
               <div className='card-body'>
                 <a
                   target='_blank'
@@ -107,13 +129,15 @@ export default function PortfolioSec() {
               </div>
             </div>
             <div className='col-md-4 btn'>
-              <div className='card-img-top sipNLearn' alt='Sip-N-Learn'></div>
+              <a target='_blank' href='https://www.borobabi.com/'>
+                <div className='card-img-top boroBabi' alt='Borobabi'>
+                  {' '}
+                </div>
+              </a>
+
               <div className='card-body'>
-                <a
-                  target='_blank'
-                  href='https://obscure-ravine-26191.herokuapp.com/'
-                >
-                  <p className='card-text btn appButtons'>Sip-N-Learn</p>
+                <a target='_blank' href='https://www.borobabi.com/'>
+                  <p className='card-text btn appButtons'>Borobabi</p>
                 </a>
               </div>
             </div>
