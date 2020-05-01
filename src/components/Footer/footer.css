@@ -4,6 +4,8 @@ footer {
   text-align: center;
 }
 .viewProfileBtn {
+  font-family: 'Fugaz One', cursive;
+
   color: grey;
   font-weight: bold;
 }

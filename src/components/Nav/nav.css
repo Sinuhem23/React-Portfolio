@@ -3,6 +3,13 @@
   text-transform: uppercase;
   font-size: 1.6rem;
 }
+.nameText {
+  padding-left: 30px;
+  font-family: 'Fugaz One', cursive;
+}
+.nameText:hover {
+  color: white;
+}
 /* .navbar-brand {
   font-size: 3rem;
   font-weight: 300;
@@ -72,7 +79,8 @@ nav ul li a:hover::after {
   transform: scaleX(1);
 }
 .navBtns {
-  margin-left: 65%;
+  font-family: 'Fugaz One', cursive;
+  margin-left: 75%;
 }
 
 @keyframes slideIn {

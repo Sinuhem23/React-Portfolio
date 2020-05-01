@@ -7,13 +7,12 @@
 .portfolioSection {
   padding-left: 10%;
 }
+.appButtons {
+  font-family: 'Fugaz One', cursive;
+  font-weight: bold;
+}
 .appButtons:hover {
   font-size: 20px;
-}
-.backgroundText {
-  font-weight: bold;
-  padding-top: 206px;
-  margin: 0 auto;
 }
 
 .triviaGame {
@@ -71,6 +70,7 @@
   border-radius: 10%;
 }
 .btnToView {
+  font-family: 'Oleo Script', cursive;
   width: 250px;
   background-color: rgb(211, 211, 211);
   text-align: center;
@@ -93,17 +93,14 @@
 }
 
 .secondCol {
+  box-shadow: 0px 2px 51px 0px rgba(0, 0, 0, 0.2);
+
   border-top: 3px solid rgb(241, 241, 241);
   border-bottom: 3px solid rgb(241, 241, 241);
   padding-top: 80px;
   padding-bottom: 100px;
   padding-right: 15px;
   padding-left: 15px;
-}
-
-.innerText2 {
-  margin-top: 20px;
-  color: rgb(224, 224, 224);
 }
 
 .footerArrow {
@@ -115,19 +112,19 @@
   padding-right: 15%;
 }
 .col1Text {
+  font-family: 'Fugaz One', cursive;
   margin-top: 30%;
   text-align: left;
   color: rgb(126, 144, 25);
 }
 .col1secondText {
+  font-family: 'Oleo Script', cursive;
   text-align: left;
   margin-top: 10px;
   font-weight: bold;
   color: grey;
 }
-.innerText1 {
-  color: rgb(168, 168, 168);
-}
+
 @media only screen and (max-width: 991px) {
   .secondCol {
     margin: 14em auto 0;
@@ -136,11 +133,7 @@
   .portfolioSection {
     margin: 0 21%;
   }
-  .backgroundText {
-    font-weight: bold;
-    padding-top: 156px;
-    margin: 0 auto;
-  }
+
   .footerArrow {
     display: none;
 
@@ -161,11 +154,7 @@
   .portfolioSection {
     margin: 0 21%;
   }
-  .backgroundText {
-    font-weight: bold;
-    padding-top: 156px;
-    margin: 0 auto;
-  }
+
   .col1Text {
     margin-top: 0;
     text-align: left;
@@ -191,11 +180,7 @@
     margin: 2em auto 0;
     width: 100%;
   }
-  .backgroundText {
-    font-weight: bold;
-    padding-top: 156px;
-    margin: 0 auto;
-  }
+
   .portfolioSection {
     margin: 0 auto 21%;
     padding-left: 15%;
@@ -227,11 +212,7 @@
   .innerText1 {
     color: gainsboro;
   }
-  .backgroundText {
-    font-weight: bold;
-    padding-top: 156px;
-    margin: 0 auto;
-  }
+
   .col1Text {
     margin-top: 0;
 

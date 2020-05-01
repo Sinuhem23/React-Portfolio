@@ -18,7 +18,7 @@ export default function Nav() {
   return (
     <nav className='navbar navbar-expand-lg navbar-dark bg-dark '>
       <Link to='/' className='nav-link nameText'>
-        <h3>Sinuhe Montero</h3>
+        <h3 className='nameText'>Sinuhe Montero</h3>
       </Link>
       <button
         className='navbar-toggler navbutton'
