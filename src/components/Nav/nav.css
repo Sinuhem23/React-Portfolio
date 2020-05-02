@@ -10,18 +10,6 @@
 .nameText:hover {
   color: white;
 }
-.navbar-toggler {
-  padding: 0.25rem 9.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-}
-nav ul li a:last-child {
-  margin-left: -200px;
-  margin-right: 0;
-}
 
 .navbar-brand span {
   color: rgb(110, 148, 89);
@@ -88,26 +76,6 @@ nav ul li a:hover::after {
   margin-left: 60%;
 }
 
-@keyframes slideIn {
-  from {
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .nav-bar-margin {
-    margin-left: 0px;
-  }
-  .navbar-toggler-icon {
-    margin-left: 0px;
-  }
-  .logo-brand {
-    margin-left: 0px;
-  }
-}
-
 /* The sidebar menu */
 .sidebar {
   height: 100%; /* 100% Full-height */
@@ -165,13 +133,67 @@ nav ul li a:hover::after {
   transition: margin-left 0.5s; /* If you want a transition effect */
   padding: 20px;
 }
+@keyframes slideIn {
+  from {
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-bar-margin {
+    margin-left: 0px;
+  }
+  .navbar-toggler-icon {
+    margin-left: 0px;
+  }
+  .logo-brand {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-bar-margin {
+    margin-left: 0px;
+  }
+  .navbar-toggler-icon {
+    margin-left: 0px;
+  }
+  .logo-brand {
+    margin-left: 0px;
+  }
+  .navbar-toggler {
+    padding: 0.25rem 9.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+  nav ul li a:last-child {
+    margin-left: -200px;
+    margin-right: 0;
+  }
+}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 480px) {
   .sidebar {
     padding-top: 15px;
   }
   .sidebar a {
     font-size: 18px;
+  }
+  .navbar-toggler {
+    padding: 0.25rem 9.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+  nav ul li a:last-child {
+    margin-left: -200px;
+    margin-right: 0;
   }
 }
