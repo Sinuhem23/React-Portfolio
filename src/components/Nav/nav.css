@@ -10,13 +10,18 @@
 .nameText:hover {
   color: white;
 }
-/* .navbar-brand {
-  font-size: 3rem;
-  font-weight: 300;
-  color: green;
-  transform: translateX(-100rem);
-  animation: slideIn 0.5s forwards;
-} */
+.navbar-toggler {
+  padding: 0.25rem 9.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+nav ul li a:last-child {
+  margin-left: -200px;
+  margin-right: 0;
+}
 
 .navbar-brand span {
   color: rgb(110, 148, 89);
