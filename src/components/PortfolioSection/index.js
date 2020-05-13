@@ -16,16 +16,16 @@ export default function PortfolioSec() {
               <a
                 target='_blank'
                 href='https://github.com/Sinuhem23/'
-                className=' btn btnToView'
+                className=' btn btnToView '
               >
                 View My GitHub
               </a>
             </div>
-            <div className='row'>
+            <div className='row '>
               <a
                 target='_blank'
                 href='https://drive.google.com/open?id=1PsS06nfz_EPUndUbdK8QXn-avAUeTjlF'
-                className=' btn btnToView'
+                className=' btn btnToView '
               >
                 View My Resume
               </a>
@@ -42,9 +42,12 @@ export default function PortfolioSec() {
         <div className='col-lg-8 '>
           {/* Row 1 */}
           <div className='row firstTextRow'>
-            <div className='col-md-4 btn'>
+            <div className='col-md-4 btn '>
               <a target='_blank' href='https://www.borobabi.com/'>
-                <div className='card-img-top boroBabi' alt='Borobabi'>
+                <div
+                  className='card-img-top w3-animate-zoom w3-center boroBabi'
+                  alt='Borobabi'
+                >
                   {' '}
                 </div>
               </a>
@@ -56,10 +59,10 @@ export default function PortfolioSec() {
               </div>
             </div>
 
-            <div className='col-md-4 btn'>
+            <div className='col-md-4 btn '>
               <a target='_blank' href='http://essentialsbyem.com/'>
                 <div
-                  className='card-img-top essentialsByEm'
+                  className='card-img-top w3-animate-zoom w3-center essentialsByEm'
                   alt='Essentials-By-Em'
                 ></div>
               </a>
@@ -73,7 +76,10 @@ export default function PortfolioSec() {
 
             <div className='col-md-4 btn'>
               <a target='_blank' href='https://sinuhem23.github.io/TriviaGame/'>
-                <div className='card-img-top triviaGame' alt='Trivia'></div>
+                <div
+                  className='card-img-top w3-animate-zoom w3-center triviaGame'
+                  alt='Trivia'
+                ></div>
               </a>
               <div className='card-body'>
                 <a
@@ -87,7 +93,7 @@ export default function PortfolioSec() {
           </div>
           {/* Row 2 */}
           <div className='row secondTextRow'>
-            <div className='col-md-4 btn'>
+            <div className='col-md-4 w3-animate-zoom w3-center btn'>
               <a target='_blank' href='https://nagle-parking.herokuapp.com/'>
                 <div
                   className='card-img-top nagleParking'
@@ -106,7 +112,10 @@ export default function PortfolioSec() {
                 target='_blank'
                 href='https://tomrennhack.github.io/Project-1-LaunchPad/index.html'
               >
-                <div className='card-img-top launchPad' alt='Launch-Pad'></div>
+                <div
+                  className='card-img-top w3-animate-zoom w3-center launchPad'
+                  alt='Launch-Pad'
+                ></div>
               </a>
 
               <div className='card-body'>
@@ -125,7 +134,7 @@ export default function PortfolioSec() {
                 href='https://shielded-spire-69074.herokuapp.com/'
               >
                 <div
-                  className='card-img-top muscleCar'
+                  className='card-img-top w3-animate-zoom w3-center muscleCar'
                   alt='Muscle-Car-Game'
                 ></div>
               </a>
