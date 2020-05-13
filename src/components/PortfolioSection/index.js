@@ -43,6 +43,35 @@ export default function PortfolioSec() {
           {/* Row 1 */}
           <div className='row firstTextRow'>
             <div className='col-md-4 btn'>
+              <a target='_blank' href='https://www.borobabi.com/'>
+                <div className='card-img-top boroBabi' alt='Borobabi'>
+                  {' '}
+                </div>
+              </a>
+
+              <div className='card-body'>
+                <a target='_blank' href='https://www.borobabi.com/'>
+                  <p className='card-text btn appButtons'>Borobabi</p>
+                </a>
+              </div>
+            </div>
+
+            <div className='col-md-4 btn'>
+              <a target='_blank' href='http://essentialsbyem.com/'>
+                <div
+                  className='card-img-top essentialsByEm'
+                  alt='Essentials-By-Em'
+                ></div>
+              </a>
+
+              <div className='card-body'>
+                <a target='_blank' href='http://essentialsbyem.com/'>
+                  <p className='card-text btn appButtons'>Essentials By Em</p>
+                </a>
+              </div>
+            </div>
+
+            <div className='col-md-4 btn'>
               <a target='_blank' href='https://sinuhem23.github.io/TriviaGame/'>
                 <div className='card-img-top triviaGame' alt='Trivia'></div>
               </a>
@@ -52,45 +81,6 @@ export default function PortfolioSec() {
                   href='https://sinuhem23.github.io/TriviaGame/'
                 >
                   <p className='card-text btn appButtons'>Trivia</p>
-                </a>
-              </div>
-            </div>
-            <div className='col-md-4 btn'>
-              <a
-                target='_blank'
-                href='https://shielded-spire-69074.herokuapp.com/'
-              >
-                <div
-                  className='card-img-top muscleCar'
-                  alt='Muscle-Car-Game'
-                ></div>
-              </a>
-              <div className='card-body'>
-                <a
-                  target='_blank'
-                  href='https://shielded-spire-69074.herokuapp.com/'
-                >
-                  <p className='card-text  btn appButtons'>Muscle-Car-Game</p>
-                </a>
-              </div>
-            </div>
-            <div className='col-md-4 btn'>
-              <a
-                target='_blank'
-                href='https://github.com/Sinuhem23/Node-Guessing-Game'
-              >
-                <div
-                  className='card-img-top nodeGuessingGame'
-                  alt='Node-Guessing-Game'
-                ></div>
-              </a>
-
-              <div className='card-body'>
-                <a
-                  target='_blank'
-                  href='https://github.com/Sinuhem23/Node-Guessing-Game'
-                >
-                  <p className='card-text btn appButtons'>Node-Guessing</p>
                 </a>
               </div>
             </div>
@@ -128,16 +118,23 @@ export default function PortfolioSec() {
                 </a>
               </div>
             </div>
-            <div className='col-md-4 btn'>
-              <a target='_blank' href='https://www.borobabi.com/'>
-                <div className='card-img-top boroBabi' alt='Borobabi'>
-                  {' '}
-                </div>
-              </a>
 
+            <div className='col-md-4 btn'>
+              <a
+                target='_blank'
+                href='https://shielded-spire-69074.herokuapp.com/'
+              >
+                <div
+                  className='card-img-top muscleCar'
+                  alt='Muscle-Car-Game'
+                ></div>
+              </a>
               <div className='card-body'>
-                <a target='_blank' href='https://www.borobabi.com/'>
-                  <p className='card-text btn appButtons'>Borobabi</p>
+                <a
+                  target='_blank'
+                  href='https://shielded-spire-69074.herokuapp.com/'
+                >
+                  <p className='card-text  btn appButtons'>Muscle-Car-Game</p>
                 </a>
               </div>
             </div>
