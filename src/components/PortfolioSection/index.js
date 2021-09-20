@@ -42,38 +42,41 @@ export default function PortfolioSec() {
         <div className='col-lg-8 '>
           {/* Row 1 */}
           <div className='row firstTextRow'>
+            {/* Check The News */}
             <div className='col-md-4 btn '>
-              <a target='_blank' href='https://www.borobabi.com/'>
+              <a target='_blank' href=''>
                 <div
-                  className='card-img-top w3-animate-zoom w3-center boroBabi'
-                  alt='Borobabi'
+                  className='card-img-top w3-animate-zoom w3-center checkTheNews'
+                  alt='Check The News'
                 >
                   {' '}
                 </div>
               </a>
 
               <div className='card-body'>
-                <a target='_blank' href='https://www.borobabi.com/'>
-                  <p className='card-text btn appButtons'>Borobabi</p>
+                <a target='_blank' href=''>
+                  <p className='card-text btn appButtons'>Check The News</p>
                 </a>
               </div>
             </div>
 
+            {/* To Do List */}
             <div className='col-md-4 btn '>
-              <a target='_blank' href='http://essentialsbyem.com/'>
+              <a target='_blank' href=''>
                 <div
-                  className='card-img-top w3-animate-zoom w3-center essentialsByEm'
-                  alt='Essentials-By-Em'
+                  className='card-img-top w3-animate-zoom w3-center toDoList'
+                  alt='To Do List'
                 ></div>
               </a>
 
               <div className='card-body'>
-                <a target='_blank' href='http://essentialsbyem.com/'>
-                  <p className='card-text btn appButtons'>Essentials By Em</p>
+                <a target='_blank' href=''>
+                  <p className='card-text btn appButtons'>To Do List</p>
                 </a>
               </div>
             </div>
 
+            {/* Trivia Game */}
             <div className='col-md-4 btn'>
               <a target='_blank' href='https://sinuhem23.github.io/TriviaGame/'>
                 <div
@@ -91,59 +94,53 @@ export default function PortfolioSec() {
               </div>
             </div>
           </div>
+
           {/* Row 2 */}
           <div className='row secondTextRow'>
+            {/* Movie Info App */}
             <div className='col-md-4 w3-animate-zoom w3-center btn'>
-              <a target='_blank' href='https://nagle-parking.herokuapp.com/'>
+              <a target='_blank' href=' '>
                 <div
-                  className='card-img-top nagleParking'
-                  alt='Nagle-Parking'
+                  className='card-img-top movieInfo'
+                  alt='Movie Info App'
                 ></div>
               </a>
 
               <div className='card-body'>
-                <a target='_blank' href='https://nagle-parking.herokuapp.com/'>
-                  <p className='card-text btn appButtons'>Nagle-Parking</p>
-                </a>
-              </div>
-            </div>
-            <div className='col-md-4 btn'>
-              <a
-                target='_blank'
-                href='https://tomrennhack.github.io/Project-1-LaunchPad/index.html'
-              >
-                <div
-                  className='card-img-top w3-animate-zoom w3-center launchPad'
-                  alt='Launch-Pad'
-                ></div>
-              </a>
-
-              <div className='card-body'>
-                <a
-                  target='_blank'
-                  href='https://tomrennhack.github.io/Project-1-LaunchPad/index.html'
-                >
-                  <p className='card-text btn appButtons'>Launch-Pad</p>
+                <a target='_blank' href=' '>
+                  <p className='card-text btn appButtons'>Movie Info App</p>
                 </a>
               </div>
             </div>
 
+            {/* Groceries With React */}
             <div className='col-md-4 btn'>
-              <a
-                target='_blank'
-                href='https://shielded-spire-69074.herokuapp.com/'
-              >
+              <a target='_blank' href=''>
                 <div
-                  className='card-img-top w3-animate-zoom w3-center muscleCar'
-                  alt='Muscle-Car-Game'
+                  className='card-img-top w3-animate-zoom w3-center groceries'
+                  alt='Groceries'
                 ></div>
               </a>
               <div className='card-body'>
-                <a
-                  target='_blank'
-                  href='https://shielded-spire-69074.herokuapp.com/'
-                >
-                  <p className='card-text  btn appButtons'>Muscle-Car-Game</p>
+                <a target='_blank' href=' '>
+                  <p className='card-text btn appButtons'>
+                    Groceries With React
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            {/* Jeopardy */}
+            <div className='col-md-4 btn'>
+              <a target='_blank' href=''>
+                <div
+                  className='card-img-top w3-animate-zoom w3-center jeopardy'
+                  alt='Jeopardy'
+                ></div>
+              </a>
+              <div className='card-body'>
+                <a target='_blank' href=''>
+                  <p className='card-text  btn appButtons'>Jeopardy</p>
                 </a>
               </div>
             </div>

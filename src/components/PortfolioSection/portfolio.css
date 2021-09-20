@@ -28,8 +28,8 @@
   /* transform: translateX(100rem);
   animation: slideIn 0.9s forwards; */
 }
-.muscleCar {
-  background-image: url('./Img/Muscle-Car-Game.png');
+.jeopardy {
+  background-image: url('./Img/Jeopardy.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,8 +39,8 @@
   /* transform: translateX(100rem);
   animation: slideIn 0.9s forwards; */
 }
-.essentialsByEm {
-  background-image: url('./Img/Essentials-By-Em.png');
+.toDoList {
+  background-image: url('./Img/To_Do_List.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,8 +51,8 @@
   /* transform: translateX(100rem);
   animation: slideIn 0.9s forwards; */
 }
-.nagleParking {
-  background-image: url('./Img/NagleParking.png');
+.movieInfo {
+  background-image: url('./Img/Movie_Info_App.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,8 +62,8 @@
   /* transform: translateX(100rem);
   animation: slideIn 0.9s forwards; */
 }
-.launchPad {
-  background-image: url('./Img/Team-Project.png');
+.groceries {
+  background-image: url('./Img/Groceries_With_React.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,8 +73,8 @@
   /* transform: translateX(100rem);
   animation: slideIn 0.9s forwards; */
 }
-.boroBabi {
-  background-image: url('./Img/Borobabi.png');
+.checkTheNews {
+  background-image: url('./Img/Check_The_News.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
