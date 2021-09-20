@@ -19,7 +19,7 @@ export default function FooterSec() {
             <div className='col-md-4'></div>
             <div className=' col-md-4'>
               {/* Up Button */}
-              <a href='#navSection' className='upButton'>
+              <a href='#Home' className='upButton'>
                 <i className='fas fa-sort-up upBtnText'>
                   <p className='upBtnText'>Top</p>
                 </i>

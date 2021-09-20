@@ -16,10 +16,7 @@ function closeNav() {
 
 export default function Nav() {
   return (
-    <nav
-      className='navbar navbar-expand-lg navbar-dark bg-dark '
-      id='navSection'
-    >
+    <nav className='navbar navbar-expand-lg navbar-dark bg-dark ' id='Home'>
       <Link to='/' className='nav-link '>
         <h3 className='nameText'>Sinuhe Montero</h3>
       </Link>
