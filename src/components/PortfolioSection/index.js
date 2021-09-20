@@ -24,7 +24,7 @@ export default function PortfolioSec() {
             <div className='row '>
               <a
                 target='_blank'
-                href='https://drive.google.com/open?id=1PsS06nfz_EPUndUbdK8QXn-avAUeTjlF'
+                href='https://drive.google.com/file/d/1voWY6M-LKZN1q4fOOeWrkpSE_2Ae9l_D/view?usp=sharing'
                 className=' btn btnToView '
               >
                 View My Resume
