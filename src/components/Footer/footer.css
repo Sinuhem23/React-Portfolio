@@ -1,13 +1,16 @@
 footer {
-  margin-top: 39px;
-  margin-bottom: 39px;
+  padding: 39px 0;
   text-align: center;
+  background-color: rgb(47, 47, 47);
 }
 .viewProfileBtn {
   font-family: 'Fugaz One', cursive;
 
   color: grey;
   font-weight: bold;
+}
+.viewProfileBtn:hover {
+  color: white;
 }
 .linkedin {
   width: 10%;
@@ -19,4 +22,29 @@ footer {
 }
 .linkeninBTN {
   font-weight: bold;
+}
+.upButton {
+  display: flex;
+  padding-top: 0.5rem;
+  flex-direction: column;
+  color: white;
+}
+
+.upBtnText {
+  color: white;
+  font-size: 20px;
+}
+.upBtnText:hover {
+  color: rgb(110, 148, 89);
+}
+
+@media only screen and (max-width: 640px) {
+  .upButton {
+    padding-top: 3rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .upButton {
+    padding-top: 3rem;
+  }
 }

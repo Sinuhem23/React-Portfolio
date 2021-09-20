@@ -4,7 +4,7 @@ import './landingPg.css';
 export default function LandingPg() {
   return (
     <div>
-      <div className='backgroundImg '>
+      <div className='backgroundImg ' id='landingPage'>
         <div className='backgroundText container-fluid'>
           <div className='row innerText1'>
             <div className='col-md-4'></div>

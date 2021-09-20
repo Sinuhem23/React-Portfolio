@@ -1,3 +1,8 @@
+#quote {
+  padding-top: 3rem;
+  background: rgb(53, 53, 53);
+  padding: 6rem;
+}
 .expressionText {
   font-family: 'Oleo Script', cursive;
 
@@ -57,6 +62,7 @@
   .expressionText {
     margin: 2em auto 0;
     width: 100%;
+    display: contents;
   }
   .arrowDown {
     text-align: center;

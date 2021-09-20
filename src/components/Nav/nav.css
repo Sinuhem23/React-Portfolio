@@ -169,10 +169,14 @@ nav ul li a:hover::after {
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 0.25rem;
+    display: contents;
   }
   nav ul li a:last-child {
     margin-left: -200px;
     margin-right: 0;
+  }
+  .nameText {
+    padding-left: 0;
   }
 }
 
@@ -191,9 +195,13 @@ nav ul li a:hover::after {
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 0.25rem;
+    display: contents;
   }
   nav ul li a:last-child {
     margin-left: -200px;
     margin-right: 0;
+  }
+  .nameText {
+    padding-left: 0;
   }
 }

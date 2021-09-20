@@ -7,12 +7,7 @@ export default function FooterSec() {
       <footer>
         <div className='container '>
           <div className='row '>
-            <div className=' col-md-4'>
-              <a href='/' className='upButton'>
-                <i className='fas fa-sort-up'></i>
-              </a>
-            </div>
-
+            {/* Linkedin Link */}
             <div id='footer' className='footer col-md-4 viewProfileBtn '>
               View my Profile:
               <div className='btn linkedinBTN'>
@@ -22,6 +17,14 @@ export default function FooterSec() {
               </div>
             </div>
             <div className='col-md-4'></div>
+            <div className=' col-md-4'>
+              {/* Up Button */}
+              <a href='#navSection' className='upButton'>
+                <i className='fas fa-sort-up upBtnText'>
+                  <p className='upBtnText'>Top</p>
+                </i>
+              </a>
+            </div>
           </div>
         </div>
       </footer>

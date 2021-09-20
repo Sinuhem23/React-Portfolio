@@ -4,8 +4,7 @@ import './portfolio.css';
 export default function PortfolioSec() {
   return (
     <div>
-      <div id='portfolio'></div>
-      <div className='row secondCol'>
+      <div className='row secondCol' id='portfolio'>
         {/* First Col */}
 
         <div className='col-lg-4 text-center'>

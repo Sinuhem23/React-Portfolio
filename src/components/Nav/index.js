@@ -16,8 +16,11 @@ function closeNav() {
 
 export default function Nav() {
   return (
-    <nav className='navbar navbar-expand-lg navbar-dark bg-dark '>
-      <Link to='/' className='nav-link nameText'>
+    <nav
+      className='navbar navbar-expand-lg navbar-dark bg-dark '
+      id='navSection'
+    >
+      <Link to='/' className='nav-link '>
         <h3 className='nameText'>Sinuhe Montero</h3>
       </Link>
       <button

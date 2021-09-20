@@ -2,7 +2,7 @@
   font-weight: bold;
 }
 #portfolio {
-  margin-top: 25%;
+  padding-top: 10%;
 }
 .portfolioSection {
   padding-left: 10%;
@@ -32,7 +32,7 @@
   animation: slideIn 0.9s forwards; */
 }
 .triviaGame:hover {
-  border: 3px solid lightblue;
+  border: 3px solid rgb(110, 148, 89);
 }
 .jeopardy {
   background-image: url('./Img/Jeopardy.png');
@@ -48,7 +48,7 @@
   animation: slideIn 0.9s forwards; */
 }
 .jeopardy:hover {
-  border: 3px solid lightblue;
+  border: 3px solid rgb(110, 148, 89);
 }
 .toDoList {
   background-image: url('./Img/To_Do_List.png');
@@ -66,7 +66,7 @@
   animation: slideIn 0.9s forwards; */
 }
 .toDoList:hover {
-  border: 3px solid lightblue;
+  border: 3px solid rgb(110, 148, 89);
 }
 .movieInfo {
   background-image: url('./Img/Movie_Info_App.png');
@@ -83,7 +83,7 @@
   animation: slideIn 0.9s forwards; */
 }
 .movieInfo:hover {
-  border: 3px solid lightblue;
+  border: 3px solid rgb(110, 148, 89);
 }
 .groceries {
   background-image: url('./Img/Groceries_With_React.png');
@@ -100,7 +100,7 @@
   animation: slideIn 0.9s forwards; */
 }
 .groceries:hover {
-  border: 3px solid lightblue;
+  border: 3px solid rgb(110, 148, 89);
 }
 .checkTheNews {
   background-image: url('./Img/Check_The_News.png');
@@ -117,13 +117,13 @@
   animation: slideIn 0.9s forwards; */
 }
 .checkTheNews:hover {
-  border: 3px solid lightblue;
+  border: 3px solid rgb(110, 148, 89);
 }
 
 .btnToView {
   font-family: 'Oleo Script', cursive;
   width: 250px;
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(110, 148, 89);
   text-align: center;
   color: white;
   margin-top: 30px;
@@ -138,13 +138,21 @@
 .card {
   width: 100%;
 }
+.card-text {
+  text-align: center;
+  font-weight: bold;
+
+  color: rgb(110, 148, 89);
+}
+
 .firstTextRow {
-  margin-top: 30px;
+  padding: 3rem 1rem 0 0;
   /* transform: translateX(100rem);
   animation: slideIn 0.9s forwards; */
 }
 .secondTextRow {
-  margin-top: 40px;
+  padding: 2rem 1rem 0 0;
+
   /* transform: translateX(100rem);
   animation: slideIn 0.9s forwards; */
 }
