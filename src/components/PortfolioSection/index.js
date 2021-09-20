@@ -98,7 +98,10 @@ export default function PortfolioSec() {
           <div className='row secondTextRow'>
             {/* Movie Info App */}
             <div className='col-md-4 w3-animate-zoom w3-center btn'>
-              <a target='_blank' href=' '>
+              <a
+                target='_blank'
+                href='https://sinuhem23.github.io/Movie-Info-App/index.html'
+              >
                 <div
                   className='card-img-top movieInfo'
                   alt='Movie Info App'
@@ -106,7 +109,10 @@ export default function PortfolioSec() {
               </a>
 
               <div className='card-body'>
-                <a target='_blank' href=' '>
+                <a
+                  target='_blank'
+                  href='https://sinuhem23.github.io/Movie-Info-App/index.html'
+                >
                   <p className='card-text btn appButtons'>Movie Info App</p>
                 </a>
               </div>
