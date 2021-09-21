@@ -172,11 +172,17 @@ nav ul li a:hover::after {
     display: contents;
   }
   nav ul li a:last-child {
-    margin-left: -200px;
+    margin-left: 0;
     margin-right: 0;
   }
   .nameText {
     padding-left: 0;
+  }
+  .navBtns {
+    padding-left: 1rem;
+
+    margin: 0;
+    display: flex;
   }
 }
 
@@ -198,10 +204,18 @@ nav ul li a:hover::after {
     display: contents;
   }
   nav ul li a:last-child {
-    margin-left: -200px;
     margin-right: 0;
+  }
+  .nav ul li a {
+    margin: 0;
   }
   .nameText {
     padding-left: 0;
+  }
+  .navBtns {
+    padding-left: 10px;
+
+    margin: 0;
+    display: flex;
   }
 }
