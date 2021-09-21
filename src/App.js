@@ -4,12 +4,7 @@ import Footer from './components/Footer';
 import Portfolio from './components/PortfolioSection';
 import LandingPG from './components/LandingPG';
 import Quote from './components/QuoteSection';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import './components/QuoteSection/quote.css';
 import './components/Home/home.css';

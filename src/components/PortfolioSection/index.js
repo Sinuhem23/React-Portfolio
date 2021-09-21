@@ -14,6 +14,7 @@ export default function PortfolioSec() {
             <div className='row'>
               <a
                 target='_blank'
+                rel='noopener noreferrer'
                 href='https://github.com/Sinuhem23/'
                 className=' btn btnToView '
               >
@@ -23,6 +24,7 @@ export default function PortfolioSec() {
             <div className='row '>
               <a
                 target='_blank'
+                rel='noopener noreferrer'
                 href='https://drive.google.com/file/d/1voWY6M-LKZN1q4fOOeWrkpSE_2Ae9l_D/view?usp=sharing'
                 className=' btn btnToView '
               >
@@ -43,7 +45,11 @@ export default function PortfolioSec() {
           <div className='row firstTextRow'>
             {/* Check The News */}
             <div className='col-md-4 btn '>
-              <a target='_blank' href='https://check-the-news.vercel.app/'>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://check-the-news.vercel.app/'
+              >
                 <div
                   className='card-img-top w3-animate-zoom w3-center checkTheNews'
                   alt='Check The News'
@@ -53,7 +59,11 @@ export default function PortfolioSec() {
               </a>
 
               <div className='card-body'>
-                <a target='_blank' href='https://check-the-news.vercel.app/'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://check-the-news.vercel.app/'
+                >
                   <p className='card-text btn appButtons'>Check The News</p>
                 </a>
               </div>
@@ -63,6 +73,7 @@ export default function PortfolioSec() {
             <div className='col-md-4 btn '>
               <a
                 target='_blank'
+                rel='noopener noreferrer'
                 href='https://to-do-list-drab-sigma.vercel.app/'
               >
                 <div
@@ -74,6 +85,7 @@ export default function PortfolioSec() {
               <div className='card-body'>
                 <a
                   target='_blank'
+                  rel='noopener noreferrer'
                   href='https://to-do-list-drab-sigma.vercel.app/'
                 >
                   <p className='card-text btn appButtons'>To Do List</p>
@@ -83,7 +95,11 @@ export default function PortfolioSec() {
 
             {/* Trivia Game */}
             <div className='col-md-4 btn'>
-              <a target='_blank' href='https://sinuhem23.github.io/TriviaGame/'>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://sinuhem23.github.io/TriviaGame/'
+              >
                 <div
                   className='card-img-top w3-animate-zoom w3-center triviaGame'
                   alt='Trivia'
@@ -92,6 +108,7 @@ export default function PortfolioSec() {
               <div className='card-body'>
                 <a
                   target='_blank'
+                  rel='noopener noreferrer'
                   href='https://sinuhem23.github.io/TriviaGame/'
                 >
                   <p className='card-text btn appButtons'>Trivia</p>
@@ -106,6 +123,7 @@ export default function PortfolioSec() {
             <div className='col-md-4 w3-animate-zoom w3-center btn'>
               <a
                 target='_blank'
+                rel='noopener noreferrer'
                 href='https://sinuhem23.github.io/Movie-Info-App/index.html'
               >
                 <div
@@ -117,6 +135,7 @@ export default function PortfolioSec() {
               <div className='card-body'>
                 <a
                   target='_blank'
+                  rel='noopener noreferrer'
                   href='https://sinuhem23.github.io/Movie-Info-App/index.html'
                 >
                   <p className='card-text btn appButtons'>Movie Info App</p>
@@ -126,14 +145,22 @@ export default function PortfolioSec() {
 
             {/* Groceries With React */}
             <div className='col-md-4 btn'>
-              <a target='_blank' href='https://groceries-omega.vercel.app/'>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://groceries-omega.vercel.app/'
+              >
                 <div
                   className='card-img-top w3-animate-zoom w3-center groceries'
                   alt='Groceries'
                 ></div>
               </a>
               <div className='card-body'>
-                <a target='_blank' href='https://groceries-omega.vercel.app/'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://groceries-omega.vercel.app/'
+                >
                   <p className='card-text btn appButtons'>
                     Groceries With React
                   </p>
@@ -143,14 +170,22 @@ export default function PortfolioSec() {
 
             {/* Jeopardy */}
             <div className='col-md-4 btn'>
-              <a target='_blank' href='https://jeopardy-dun.vercel.app/'>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://jeopardy-dun.vercel.app/'
+              >
                 <div
                   className='card-img-top w3-animate-zoom w3-center jeopardy'
                   alt='Jeopardy'
                 ></div>
               </a>
               <div className='card-body'>
-                <a target='_blank' href='https://jeopardy-dun.vercel.app/'>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://jeopardy-dun.vercel.app/'
+                >
                   <p className='card-text  btn appButtons'>Jeopardy</p>
                 </a>
               </div>
