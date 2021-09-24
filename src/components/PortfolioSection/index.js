@@ -98,20 +98,20 @@ export default function PortfolioSec() {
               <a
                 target='_blank'
                 rel='noopener noreferrer'
-                href='https://sinuhem23.github.io/TriviaGame/'
+                href='https://nagle-parking.herokuapp.com/'
               >
                 <div
-                  className='card-img-top w3-animate-zoom w3-center triviaGame'
-                  alt='Trivia'
+                  className='card-img-top w3-animate-zoom w3-center nagleParking'
+                  alt='Nagle Parking'
                 ></div>
               </a>
               <div className='card-body'>
                 <a
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://sinuhem23.github.io/TriviaGame/'
+                  href='https://nagle-parking.herokuapp.com/'
                 >
-                  <p className='card-text btn appButtons'>Trivia</p>
+                  <p className='card-text btn appButtons'>Nagle Parking</p>
                 </a>
               </div>
             </div>
