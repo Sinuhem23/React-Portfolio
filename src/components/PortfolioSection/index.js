@@ -98,7 +98,7 @@ export default function PortfolioSec() {
               <a
                 target='_blank'
                 rel='noopener noreferrer'
-                href='https://nagle-parking.herokuapp.com/'
+                href='https://nagleparking.herokuapp.com/'
               >
                 <div
                   className='card-img-top w3-animate-zoom w3-center nagleParking'
@@ -109,7 +109,7 @@ export default function PortfolioSec() {
                 <a
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='https://nagle-parking.herokuapp.com/'
+                  href='https://nagleparking.herokuapp.com/'
                 >
                   <p className='card-text btn appButtons'>Nagle Parking</p>
                 </a>
